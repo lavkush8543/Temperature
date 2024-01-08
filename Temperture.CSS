@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: yellowgreen;
+	position: relative;
+	text-align: center;
+	text-shadow: 5px 4px 6px black;
+	font-size: 40px;
+}
+div{
+	position: relative;
+	background-color:blue ;
+	width: 700px;
+	height: 180px;
+	padding: 10px;
+	border-radius: 30px;
+	border-color: blue;
+	border-width: 50px;
+	left: 400px;
+	top: 200px;
+	box-shadow: 8px 4px 5px 6px;
+	text-decoration-color: indigo;
+    
+}
+input{
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border-radius: 10px;
+	top: 90px;
+	text-align: center;
+	right: 130px;
+}
+select{
+	position: relative;
+	top: 30px;
+
+}
+#fri{
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border-radius: 10px;
+	left: 200px;
+	cursor: pointer;
+}
+#sem{
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border-radius: 10px;
+	left: 200px;
+	cursor: pointer;
+}
+input:hover{
+	color: blue;
+	font-size: 30px;
+    cursor: pointer;
+    background-color: yellow;
+    width: 200px;
+}
+div:hover{
+	background-color: darkred;
+	cursor: pointer;
+	box-shadow: 5px 6px 7px 9px darkred;
+
+}
+h1:hover{
+           visibility: hidden;
+           cursor: pointer;
+}
+
